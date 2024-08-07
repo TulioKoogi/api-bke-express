@@ -1,0 +1,22 @@
+{
+  "name": "api-bke-express",
+  "version": "1.0.0",
+  "description": "API Node com framework Express",
+  "main": "src/server.js",
+  "type":"module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "express",
+    "zod"
+  ],
+  "author": "Túlio Koogi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
