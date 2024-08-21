@@ -22,3 +22,9 @@ npm run nome-do-script #executa um script do package.json
 npm start #executa script start do package.json
 
 ```
+##Prisma
+
+```
+npx prisma db pull (gera o modelo a partir do banco criado)
+npx prisma db push (gera o banco a partir do modelo)
+```
